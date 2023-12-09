@@ -15,9 +15,6 @@ def findDigitNumber(line):
     number = int(from_start_digit) * 10 + int(from_end_digit)
     return number
 
-# def findSpelledNumber(line):
-
-
 def part1(lines):
     ans = 0
     for line in lines:
@@ -39,4 +36,3 @@ def part2(lines):
 lines = readInput()
 print(part1(lines))
 print(part2(lines))
-# print(part2(games))
